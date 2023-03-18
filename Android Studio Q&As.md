@@ -27,6 +27,15 @@
 * [https://github.com/intel/haxm/wiki/Windows-System-Configurations](https://github.com/intel/haxm/wiki/Windows-System-Configurations)
 
 
+## 自动导包快捷键和设置自动导包
+
+1. 方法一：在对象处，按alt+enter键
+2. 方法二：在File --> Settings --> Editor --> General --> Auto Import
+   * 勾选Add umbiguous imports on the fly
+   * 点击Apply --> OK
+
+
+
 ## 如果点击Run，但虚拟机上没能自动启动，怎么办？
 
 1. 检查AndroidManifest.xml中，是否制定了主Activity的LAUCHER？
