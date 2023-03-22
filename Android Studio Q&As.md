@@ -42,3 +42,12 @@
 2. 确认app --> build.gradle 文件里面的CompileSdk参数指定的版本，在File-->Settings-->Appereance & Behavior-->System Settings-->Android SDK-->SDK Platform中是否安装了对应Android API level版本？
 3. 在Run-->Edit Configurations-->Android App-->app-->Launch Options-->Launch:中是否选择了Default Activity？
 
+
+## 如何在kt中直接操作控件名
+
+即不用显式声明控件后在操作，在app中的`build.gradle`中的`plugin`字段中添加一行：
+
+```
+id 'kotlin-android-extensions'
+```
+
